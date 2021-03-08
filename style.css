@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-image: url(./images/burned.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-center {
+  margin: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: 30%;
+}
+
+.underline {
+  border-top: 3px solid black;
+  width: 40%;
+  margin: 10px auto;
+}
+
+/* filter buttons */
+
+.filter-btn {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  width: 20%;
+  font-size: 30px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  border: outset;
+}
+
+.filter-btn:hover {
+  background-color: rgba(54, 38, 38, 0.705);
+  cursor: pointer;
+}
+
+/* each menu item */
+
+.menu-item {
+  display: flex;
+  width: 40%;
+  height: 200px;
+  margin: 10px 5%;
+  flex-wrap: wrap;
+}
+
+.item-photo {
+  height: 200px;
+  width: 50%;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+.item-info {
+  height: 10%;
+  width: 35%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+}
+
+.item-name-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-text {
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+}
+
+.conatiner-btn {
+  width: 100%;
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
