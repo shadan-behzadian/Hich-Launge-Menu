@@ -83,10 +83,11 @@ const menu = [
 
 const sectionCenter = document.querySelector(".section-center");
 const container = document.querySelector(".conatiner-btn");
+const mainPage = document.querySelector(".mainPage");
+const goBack = document.querySelector(".goBack");
 
 // Load all items
 window.addEventListener("DOMContentLoaded", function () {
-  displayMenuItems(menu);
   displayMenuButtons();
 });
 
@@ -94,7 +95,8 @@ window.addEventListener("DOMContentLoaded", function () {
 function displayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
     console.log(item);
-    return ` <div class='menu-item'>
+    return ` 
+    <div class='menu-item'>
 <div class='item-photo'>
     <img src=${item.img}  class='photo' alt=${item.title}>
 </div>
@@ -113,6 +115,7 @@ function displayMenuItems(menuItems) {
   });
   displayMenu = displayMenu.join("");
   // console.log(displayMenu)
+  document.querySelector(".goBack").style.display = "block";
   sectionCenter.innerHTML = displayMenu;
 }
 //display buttons to Filter menu items
@@ -141,8 +144,18 @@ function displayMenuButtons() {
       // console.log(e.currentTarget.dataset.id)
       const catagory = e.currentTarget.dataset.id;
       const menuCatagory = menu.filter(function (menuItems) {
+        if (catagory == "all") {
+          return (
+            (mainPage.style.display = "none"),
+            (sectionCenter.style.display = "flex")
+          );
+        }
         if (catagory === menuItems.category) {
-          return menuItems;
+          return (
+            menuItems,
+            (mainPage.style.display = "none"),
+            (sectionCenter.style.display = "flex")
+          );
         }
       });
       // console.log(menuCatagory);
@@ -154,3 +167,9 @@ function displayMenuButtons() {
     });
   });
 }
+
+goBack.addEventListener("click", function () {
+  mainPage.style.display = "flex";
+  sectionCenter.style.display = "none";
+  goBack.style.display = "none";
+});
