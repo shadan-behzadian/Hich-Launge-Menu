@@ -142,10 +142,6 @@ body[orient="landscape"] {
 
 /* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-}
-
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 }
@@ -169,6 +165,24 @@ body[orient="landscape"] {
     margin-top: 5%;
     padding: 50px;
     border-radius: 54px;
+  }
+
+  .menu-item {
+    width: 100%;
+    height: 300px;
+    margin: 5% auto;
+  }
+
+  .item-photo {
+    width: 40%;
+  }
+
+  .section-center {
+    font-size: 33px;
+  }
+  .item-info {
+    width: 45%;
+    margin-left: 15%;
   }
 }
 
