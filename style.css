@@ -140,12 +140,6 @@ body[orient="landscape"] {
   justify-content: center;
 }
 
-@media only screen and (min-width: 768px) {
-  .hidedesktop {
-    display: none;
-  }
-}
-
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
