@@ -385,7 +385,7 @@ const menu = [
     title: "اسپاگتی آلفردو",
     category: "غذا",
     price: "۶۵",
-    img: "./images/item-10.jpeg",
+    img: "",
     desc: `مرغ، سس آلفردو، اسپاگتی، پنیر پارمیجانو`,
   },
   {
@@ -393,7 +393,7 @@ const menu = [
     title: "فتوچینی بیف",
     category: "غذا",
     price: "۸۱",
-    img: "./images/item-10.jpeg",
+    img: "",
     desc: `فتوچینی، سس بلونز، فیله گوساله، پنیر لیغوان`,
   },
   {
@@ -409,7 +409,7 @@ const menu = [
     title: "آمریکانو برگر",
     category: "غذا",
     price: "۹۸",
-    img: "./images/item-10.jpeg",
+    img: "",
     desc: `برگر ۱۰۰ گرم فیله گوساله،۲۰۰ گرم گوشت برگر،گوجه گریل شده،سس پیاز، کیل سرخ شده`,
   },
   {
