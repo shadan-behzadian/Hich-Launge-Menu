@@ -417,7 +417,7 @@ const menu = [
     title: "فلورنتین برگر",
     category: "غذا",
     price: "۸۱",
-    img: "./images/item-10.jpeg",
+    img: "",
     desc: `برگر پنیری،گوجه گریل شده،سس پیاز،اسفناج`,
   },
   {
@@ -425,7 +425,7 @@ const menu = [
     title: " چیکن فلورنتین",
     category: "غذا",
     price: "۶۱",
-    img: "./images/item-10.jpeg",
+    img: "",
     desc: `مرغ گریله،سس پنیر،اسفناج`,
   },
   {
