@@ -406,7 +406,7 @@ const menu = [
   },
   {
     id: 47,
-    title: "آمریکانو برگر",
+    title: "آمریانو برگر",
     category: "غذا",
     price: "۹۸",
     img: "",
