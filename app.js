@@ -409,7 +409,7 @@ const menu = [
     title: "آمریکانو برگر",
     category: "غذا",
     price: "۹۸",
-    img: "./images/fotochinimorgh.jpeg",
+    img: "./images/beefburgur.jpeg",
     desc: `برگر ۱۰۰ گرم فیله گوساله،۲۰۰ گرم گوشت برگر،گوجه گریل شده،سس پیاز، کیل سرخ شده`,
   },
   {
@@ -503,7 +503,7 @@ function displayMenuItems(menuItems) {
     return ` 
     <div class='menu-item'>
 <div class='item-photo'>
-    <img src=${item.img}  class='photo' alt=${item.title}>
+    <img src=${item.img}  class='photo' alt=${"photo"}>
 </div>
 
  <div class='item-info'>
